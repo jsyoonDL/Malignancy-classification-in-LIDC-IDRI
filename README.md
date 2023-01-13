@@ -1,6 +1,6 @@
 - Hi, I’m @jsyoonDL 
-- I’m interested in image and signal processing with deep learning.
-- I’m currently learning the auto encoder based algorithm.
+- This is for nodule classification using LUNA 16 dataset.
+- The dataset can download the below link.
+- Dataset (LUNA 16) : https://zenodo.org/record/3723295 & https://zenodo.org/record/4121926
 - How to reach me
 -   -> giseg2118@gmail.com & jsyoon@tukorea.ac.kr
-
