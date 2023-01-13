@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 12 11:12:34 2023
-
-@author: user
+https://github.com/marichka-dobko/Lung_Nodule_Classification/blob/master/data_preprocessing/VisualizeData.ipynb
+@author: marichka-dobko
 """
 
 import sys, os
