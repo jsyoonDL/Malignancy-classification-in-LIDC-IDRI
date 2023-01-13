@@ -5,4 +5,4 @@
 - How to reach me
 -   -> giseg2118@gmail.com & jsyoon@tukorea.ac.kr
 
-The code is based on Pytorch
+The code is based on Pytorch 2.0.0
