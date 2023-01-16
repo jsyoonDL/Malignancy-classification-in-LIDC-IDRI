@@ -26,9 +26,9 @@ random.shuffle(data_list)
 dnum = len(data_list)
 #%%
 
-tr_num = dnum*0.5
-val_num =  dnum*0.2
-te_num = dnum - tr_num-val_num
+tr_num = dnum*0.5 # 50% train
+val_num =  dnum*0.2 # 20% val
+te_num = dnum - tr_num-val_num # 30% test
 
 
 indices = list(range(dnum))
