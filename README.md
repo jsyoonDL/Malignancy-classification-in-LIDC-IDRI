@@ -1,8 +1,8 @@
 - Hi, I’m @jsyoonDL 
 - This is for nodule classification using LUNA 16 dataset.
 - The dataset can download the below link.
-  -> Dataset (LUNA 16) : https://zenodo.org/record/3723295 & https://zenodo.org/record/4121926
+\n  -> Dataset (LUNA 16) : https://zenodo.org/record/3723295 & https://zenodo.org/record/4121926
 - Contact
-  -> giseg2118@gmail.com & jsyoon@tukorea.ac.kr
+\n  -> giseg2118@gmail.com & jsyoon@tukorea.ac.kr
 
 The code is based on Pytorch 2.0.0
