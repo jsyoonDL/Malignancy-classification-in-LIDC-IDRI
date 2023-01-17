@@ -27,7 +27,11 @@ ROC AUC: 0.7671, PR AUC: 0.8106
 
 <**Confusion matrix**>
 
-![output|240x140](https://user-images.githubusercontent.com/87634620/212794390-c22cef8d-fd3f-4d13-aeba-d68a49425e02.png)
+|     |**1**|**0**|
+|-----|-----|-----|
+|**1**|  557|   41|
+|**0**|  108|   82|
+
 
 <**ROC analysis#1**>   
 |                |precision|recall   |f1-score|  support|
