@@ -51,15 +51,10 @@ def train(model, params):
     model_path = params['model_path']
     norm = params['norm']
     l_lambda = params['lambda']
-    # best = params['acc_best']
     best =0
     ds_tr = Dataset(data_path,'train')
     ds_val = Dataset(data_path,'val')
     
-    # seed initialization
-    # g = torch.Generator()
-    # g.manual_seed(0)
-    # set_seed(0)
     
     dl_tr = DataLoader(ds_tr, 
                        batch_size=batch_size, 
