@@ -1,5 +1,6 @@
 - Hi, I’m @jsyoonDL 
-- This is for nodule classification using LUNA 16 dataset.
+- This is for nodule classification using LIDC-IDRI dataset.
+- Target : classification the nodule is malignancy or not.
 - The dataset can download the below link.
 
    -> Dataset (LIDC-IDRI) : https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254
