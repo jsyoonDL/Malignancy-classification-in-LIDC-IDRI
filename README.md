@@ -1,4 +1,4 @@
-- This is for malignancy classification using LIDC-IDRI dataset.
+- This is malignancy classification using simple deep learning method in LIDC-IDRI dataset.
 - Malignancy: 633, Not: 1992
 - The dataset can download the below link.
 
