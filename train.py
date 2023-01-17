@@ -127,9 +127,7 @@ def train(model, params):
                 # Display current eval.
                 tepoch.set_postfix(loss=train_loss.item(),accuracy=accuracy)
 #%% val             
-            # if (epoch %5 ==4 and epoch<=2*num_epochs//3) or (epoch>2*num_epochs//3):     
-            # if (epoch==0) or (epoch %5 ==4 and epoch> num_epochs//2) or (epoch>2*num_epochs//3): 
-            # if (epoch==0) or epoch>22*num_epochs//30: 
+
             if (epoch==0) or epoch>15*num_epochs//20: 
                 total = 0
                 correct = 0
@@ -163,8 +161,7 @@ def train(model, params):
                     os.makedirs(save_path, exist_ok=True)                    
                     # torch.save(model.module.state_dict(), save_path + '/trained_model.pt')
                     torch.save(model.state_dict(), save_path + '/trained_model.pt')
-                    best = 100*correct/total
-                    # best = 100 *test_loss/total                    
+                    best = 100*correct/total                  
                     
                     
                 # display the test results
