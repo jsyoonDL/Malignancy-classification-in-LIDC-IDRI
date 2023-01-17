@@ -42,12 +42,12 @@ class FeatureExtractor(nn.Module):
     
 #%%     
 class InputFilter(nn.Module):
-    def __init__(self,in_channel, num_features):
+    def __init__(self,in_channel, out_channel):
         super().__init__()
         # proj
         self.upsampling = nn.Upsample(size=(56, 56), mode='bilinear', align_corners=True)
-        self.conv = nn.Conv2d(56,96,kernel_size=1)
-        self.norm = LayerNorm2d(96)
+        self.conv = nn.Conv2d(in_channel,out_channel,kernel_size=1)
+        self.norm = LayerNorm2d(out_channel)
         
         self.apply(self._init_weights)
         
@@ -75,7 +75,7 @@ class Model(nn.Module):
                                   pretrained=True, 
                                   num_classes=2) 
         
-        self.stem = InputFilter(3,96)
+        self.stem = InputFilter(56,96)
         self.stages = model.stages
         self.clf = model.head
  
