@@ -24,15 +24,14 @@ The code is based on
 Acc: 81.09, Balenced Acc.:75.21, spec.:0.8109, pre.:0.7964, rec.:0.8109, F1: 0.7957 
 ROC AUC: 0.7671, PR AUC: 0.8106
 
-<**Confusion matrix**>
+- **Confusion matrix**
 
 |     |**1**|**0**|
 |-----|-----|-----|
 |**1**|  557|   41|
 |**0**|  108|   82|
 
-
-<**ROC analysis#1**>   
+- ** Analysis #1 **  
 |                |precision|recall   |f1-score|  support|
 |----------------|---------|---------|--------|---------|
 |**0**           |   0.8376|   0.9314|  0.8820|      598|
@@ -41,7 +40,7 @@ ROC AUC: 0.7671, PR AUC: 0.8106
 |**macro avg**   |   0.7521|   0.6815|  0.7030|      788|
 |**weighted avg**|   0.7964|   0.8109|  0.7957|      788|
 
-<**ROC analysis#2**> 
+- ** Analysis #2 ** 
 |     |Sensitivity|Specificity|Precision|      ACC|
 |-----|-----------|-----------|---------|---------|
 |**0**|   0.931438|   0.431579| 0.837594| 0.810914|
