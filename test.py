@@ -3,7 +3,7 @@
 """
 Created on Tue Jan 17 10:04:37 2023
 
-@author: user
+@author: jsyoonDL
 """
 
 import torch
@@ -100,14 +100,14 @@ def test(model, params):
     model_name = params['model_name']
     
     ds = Dataset(data_path,'test')
-    classes = ['True','False']
+    classes = ['False','True']
    
     dl = DataLoader(
         ds, 
         batch_size=batch_size, 
         pin_memory=True,
         shuffle=False, 
-        num_workers=12) 
+        num_workers=4) 
            
     total = 0
     correct = 0
@@ -184,7 +184,7 @@ set_seed(seed)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') 
 loss_function = nn.CrossEntropyLoss().cuda()
 
-model_path = 'model_trained/proposed/Data/classification'    
+model_path = 'model_trained/proposed'    
 model = Model()  
 model.load_state_dict(torch.load(model_path+'/trained_model.pt'))
 model.cuda() 
