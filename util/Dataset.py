@@ -3,7 +3,7 @@
 """
 Created on Mon Jan 16 11:04:04 2023
 
-@author: user
+@author: jsyoonDL
 """
 
 from torch.utils.data import Dataset
