@@ -1,4 +1,4 @@
-- This is for nodule classification using LIDC-IDRI dataset.
+- This is for malignancy classification using LIDC-IDRI dataset.
 - Target : classification the nodule is malignancy or not. ( malignancy: 633, not: 1992)
 - The dataset can download the below link.
 
