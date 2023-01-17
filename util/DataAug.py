@@ -3,7 +3,7 @@
 """
 Created on Fri Nov  4 21:50:47 2022
 
-@author: jsyoon
+@author: jsyoonDL
 """
 import kornia.augmentation as K
 import torch.nn as nn
