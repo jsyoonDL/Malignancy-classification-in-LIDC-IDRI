@@ -26,8 +26,9 @@ Acc: 81.09, Balenced Acc.:75.21, spec.:0.8109, pre.:0.7964, rec.:0.8109, F1: 0.7
 ROC AUC: 0.7671, PR AUC: 0.8106
 
 <**Confusion matrix**>
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/87634620/212791219-1bcc7054-6ff5-4787-bf4b-51a3b0c50f03.png)" width="100" height="100">
-   
+
+![output|240x140](https://user-images.githubusercontent.com/87634620/212794390-c22cef8d-fd3f-4d13-aeba-d68a49425e02.png)
+
 <**ROC analysis#1**>   
 |                |precision|recall   |f1-score|  support|
 |----------------|---------|---------|--------|---------|
