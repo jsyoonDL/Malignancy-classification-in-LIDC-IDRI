@@ -3,7 +3,7 @@
 """
 Created on Mon Jan 16 15:18:34 2023
 
-@author: user
+@author: jsyoonDL
 """
 
 import torch
