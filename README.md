@@ -1,5 +1,5 @@
 - This is malignancy classification using simple deep learning method in LIDC-IDRI dataset.
-- Malignancy: 633, Not: 1992
+- Malignancy (True): 633, Benign (False): 1992
 - The dataset can download the below link.
 
    -> Dataset (LIDC-IDRI) : https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254
