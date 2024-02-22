@@ -6,7 +6,7 @@
 
 - Contact
 
-   -> giseg2118@gmail.com & jsyoon@tukorea.ac.kr
+   -> giseg2118@gmail.com
 
 The code is based on 
 
